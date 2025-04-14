@@ -1,0 +1,45 @@
+{
+    "name": "ruler",
+    "version": "1.0.1",
+    "private": true,
+    "description": "Measure anything from your screen",
+    "author": {
+        "name": "Tiny Brief",
+        "url": "https://github.com/tiny-power/tiny-brief/issues",
+        "email": "tinybrief@gmail.com"
+    },
+    "homepage": "https://github.com/tiny-power/tiny-brief#readme",
+    "scripts": {
+        "serve": "vue-cli-service electron:serve",
+        "build": "vue-cli-service electron:build"
+    },
+    "main": "background.js",
+    "dependencies": {
+        "axios": "^0.19.0",
+        "clientjs": "^0.2.1",
+        "core-js": "^3.24.1",
+        "electron": "^27.0.0",
+        "electron-store": "^8.1.0",
+        "element-ui": "^2.15.14",
+        "konva": "^9.3.16",
+        "md5": "^2.2.1",
+        "p-limit": "^3.1.0",
+        "path": "^0.12.7",
+        "regenerator-runtime": "^0.13.9",
+        "screenshot-desktop": "^1.15.1",
+        "vue": "^2.6.11",
+        "vue-i18n": "^8.28.2",
+        "vue-router": "^3.2.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^4.3.0",
+        "@vue/cli-plugin-router": "^4.3.0",
+        "@vue/cli-service": "^4.3.0",
+        "babel-plugin-component": "^1.1.1",
+        "compression-webpack-plugin": "^6.0.0",
+        "electron-devtools-installer": "^3.1.0",
+        "electron-rebuild": "^3.2.9",
+        "vue-cli-plugin-electron-builder": "~2.1.1",
+        "vue-template-compiler": "^2.6.11"
+    }
+}

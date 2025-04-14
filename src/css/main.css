@@ -1,0 +1,61 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 1px;
+    background: #f3f1f2;
+}
+
+::-webkit-scrollbar-track {
+    width: 1px;
+    background: #f3f1f2;
+}
+
+.el-dialog {
+    border-radius: 8px !important;
+}
+.confirmButtonClass {
+    background-color: #272727 !important;
+    border-color: #272727 !important;
+}
+.cancelButtonClass {
+    color: #272727 !important;
+    border-color: #272727 !important;
+}
+.el-loading-spinner .el-icon-loading {
+    color: #000 !important;
+}
+.el-loading-spinner .el-loading-text {
+    color: #000 !important;
+}
+.el-table thead th {
+    background: #fafafa !important;
+    font-weight: bold;
+}
+.el-table th {
+    padding: 0 !important;
+    font-size: 13px !important;
+    height: 40px;
+    color: #272727 !important;
+}
+
+.el-table td {
+    color: #272727 !important;
+    font-size: 13px !important;
+    cursor: pointer;
+}
