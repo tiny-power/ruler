@@ -8,18 +8,18 @@
             <div style="width: 60px">GitHub:</div>
             <div
                 style="color: rgb(44, 105, 211); font-weight: 600; text-decoration: underline; cursor: pointer"
-                @click="openExternal('https://github.com/tiny-power/tiny-brief')"
+                @click="openExternal('https://github.com/tiny-power/ruler')"
             >
-                https://github.com/tiny-power/tiny-brief
+                https://github.com/tiny-power/ruler
             </div>
         </div>
         <div style="margin-top: 8px; text-align: left; margin-left: 72px; display: flex">
             <div style="width: 60px">Website:</div>
             <div
                 style="color: rgb(44, 105, 211); font-weight: 600; text-decoration: underline; cursor: pointer"
-                @click="openExternal('https://tinybrief.app/about?type=Ruler')"
+                @click="openExternal('https://tinybrief.app/about?type=ruler')"
             >
-                https://tinybrief.app/about?type=Ruler
+                https://tinybrief.app/about?type=ruler
             </div>
         </div>
     </div>

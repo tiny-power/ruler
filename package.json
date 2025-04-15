@@ -5,10 +5,10 @@
     "description": "Measure anything from your screen",
     "author": {
         "name": "Tiny Brief",
-        "url": "https://github.com/tiny-power/tiny-brief/issues",
+        "url": "https://github.com/tiny-power/ruler/issues",
         "email": "tinybrief@gmail.com"
     },
-    "homepage": "https://github.com/tiny-power/tiny-brief#readme",
+    "homepage": "https://tinybrief.app/about?type=ruler",
     "scripts": {
         "serve": "vue-cli-service electron:serve",
         "build": "vue-cli-service electron:build"
