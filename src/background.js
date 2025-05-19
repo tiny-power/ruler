@@ -14,7 +14,6 @@ protocol.registerSchemesAsPrivileged([
 let mainWindow = null
 let tray = null
 async function createMainWindow() {
-    // 禁止程序多开
     if (!app.requestSingleInstanceLock()) {
         app.quit()
         return
@@ -25,7 +24,7 @@ async function createMainWindow() {
         width: width,
         height: height,
         frame: false,
-        fullscreen: process.platform != 'darwin', // 控制窗口全屏，注意在 mac 下全屏会跳到另一个桌面，因此 mac 下不能使用该属性
+        fullscreen: process.platform != 'darwin',
         x: 0,
         y: 0,
         transparent: true,
@@ -33,7 +32,7 @@ async function createMainWindow() {
         movable: false,
         show: false,
         autoHideMenuBar: true,
-        enableLargerThanScreen: true, //mac
+        enableLargerThanScreen: true,
         skipTaskbar: true,
         alwaysOnTop: true,
         hasShadow: false,
